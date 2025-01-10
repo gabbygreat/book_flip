@@ -1,6 +1,6 @@
 name: book_flip
 description: "Easily implement and customize book flip effect"
-version: 0.0.2
+version: 1.0.0
 homepage: https://github.com/gabbygreat/book_flip
 
 environment:
