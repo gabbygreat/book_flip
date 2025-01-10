@@ -1,9 +1,18 @@
-Here's a sample `README.md` file with documentation for your `BookWidget` Flutter package. This README covers the basic usage, setup, and configuration, as well as providing examples for how users can implement and customize the widget in their own apps.
+# BookFlip Flutter Package
 
-````markdown
-# BookWidget Flutter Package
+The `BookFlip` is a custom Flutter widget that simulates a book flipping effect. It allows you to display content in the form of a book with a cover page and flip through pages with an animated 3D effect. This widget is customizable, supporting various settings such as flip duration, page spacing, shadow effects, and more.
 
-The `BookWidget` is a custom Flutter widget that simulates a book flipping effect. It allows you to display content in the form of a book with a cover page and flip through pages with an animated 3D effect. This widget is customizable, supporting various settings such as flip duration, page spacing, shadow effects, and more.
+## Demo
+
+Here’s a demonstration of the `BookFlip` in action:
+
+<div align="center">
+  <img src="assets/demo.gif" alt="BookFlip Demo" width="180" height="360">
+</div>
+
+> _Above: A book-flipping animation showcasing the `BookFlip`._
+
+---
 
 ## Features
 
@@ -22,7 +31,6 @@ To use this package in your Flutter project, add it as a dependency in your `pub
 dependencies:
   book_widget: ^1.0.0 # Replace with the latest version
 ```
-````
 
 Then, run the following command to install the package:
 
@@ -67,7 +75,7 @@ class BookPage extends StatelessWidget {
         title: const Text('Book Widget Example'),
       ),
       body: Center(
-        child: BookWidget(
+        child: BookFlip(
           coverPage: Center(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
@@ -106,7 +114,7 @@ class BookPage extends StatelessWidget {
 
 ### Parameters
 
-The `BookWidget` accepts the following parameters:
+The `BookFlip` accepts the following parameters:
 
 - **coverPage** (`Widget?`): The widget to display as the cover page. This is optional.
 - **content** (`List<Widget>`): A list of widgets that will represent the pages of the book.
@@ -125,7 +133,7 @@ The `BookWidget` accepts the following parameters:
 ### Example Customization
 
 ```dart
-BookWidget(
+BookFlip(
   coverPage: Center(
     child: Column(
       mainAxisAlignment: MainAxisAlignment.center,
@@ -198,10 +206,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### Explanation:
 
-- **Title and Overview**: Describes the functionality of the `BookWidget` and its main features.
+- **Title and Overview**: Describes the functionality of the `BookFlip` and its main features.
 - **Installation Instructions**: Provides step-by-step guidance on how to add the package to your Flutter project.
-- **Usage**: Demonstrates how to implement the `BookWidget` in a Flutter app with a basic and customized example.
-- **Parameters**: Details the configurable parameters of the `BookWidget`.
+- **Usage**: Demonstrates how to implement the `BookFlip` in a Flutter app with a basic and customized example.
+- **Parameters**: Details the configurable parameters of the `BookFlip`.
 - **Customization**: Shows how you can further customize the widget with animation duration, flip angle, shadow, etc.
 - **Testing**: Mentions the usage of Flutter's test framework and running tests.
 - **Contribution and License**: Invites contributions and explains the licensing under MIT.
