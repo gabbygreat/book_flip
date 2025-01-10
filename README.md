@@ -6,9 +6,7 @@ The `BookFlip` is a custom Flutter widget that simulates a book flipping effect.
 
 Here’s a demonstration of the `BookFlip` in action:
 
-<div align="center">
-  <img src="assets/demo.gif" alt="BookFlip Demo" width="180" height="360">
-</div>
+![BookFlip Demo](assets/demo.gif){width=180 height=360}
 
 > _Above: A book-flipping animation showcasing the `BookFlip`._
 
@@ -199,20 +197,3 @@ Feel free to fork this repository and submit pull requests for any bug fixes, en
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-```
-
----
-
-### Explanation:
-
-- **Title and Overview**: Describes the functionality of the `BookFlip` and its main features.
-- **Installation Instructions**: Provides step-by-step guidance on how to add the package to your Flutter project.
-- **Usage**: Demonstrates how to implement the `BookFlip` in a Flutter app with a basic and customized example.
-- **Parameters**: Details the configurable parameters of the `BookFlip`.
-- **Customization**: Shows how you can further customize the widget with animation duration, flip angle, shadow, etc.
-- **Testing**: Mentions the usage of Flutter's test framework and running tests.
-- **Contribution and License**: Invites contributions and explains the licensing under MIT.
-
-Let me know if you need additional information or modifications to the README!
-```
